@@ -98,7 +98,8 @@ const Projects = ({ title, subtitle, note }) => {
                 <div className="project">
                     <img src={gyftstoreImage} className="project-image" alt="gyft store website" />
                     <p className="project-text">
-                        A simple language translator with text-to-voice and copy functionality.
+                       Welcome to gyft store ecommercee website, an online gift store where you will find a delightful
+                       array of unique gifts for all occasions .
                     </p>
                     <a href="https://www.gyft.ng/" target='_blank' rel="noreferrer">
                         <Button name={'Check it out'} />
