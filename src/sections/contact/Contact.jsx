@@ -30,7 +30,7 @@ const Contact = ({ title, subtitle, note }) => {
     const sendEmail = (e) => {
         // e.preventDefault();
 
-        emailjs.sendForm('service_7axo4gb', 'template_z9szsgr', form.current, 'user_iec6KP9eYzC2iFC5C4j4K')
+        emailjs.sendForm('service_zlmqrgh', 'template_avdlzfc', form.current, 'I1IZmjIn5yXrvhLqJ')
             .then((result) => {
                 // console.log(result.text);
                 alert("Thank you! I would like to inform you that an auto-generated email has been sent to the provided email address confirming the receipt of your message. This email serves as an acknowledgment that I have received your submission and will respond as soon as possible, Kindly check your email.");
