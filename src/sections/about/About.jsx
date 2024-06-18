@@ -103,9 +103,9 @@ const About = ({ title, subtitle, note, profile, skills }) => {
 About.defaultProps = {
     title: 'about',
     subtitle: 'Let me introduce myself',
-    note: 'I am a highly skilled software engineer with a major in front-end development and expertise in UI/UX design. With 3 years of experience',
+    note: 'I am a highly skilled software engineer with a major in front-end development and expertise in UI/UX design/Writer. With 3 years of experience',
     profile: ' My passion is to deliver exceptional digital experiences through seamless and visually appealing interfaces',
-    skills: 'HTML, CSS, SCSS, WordPress, ReactJs, React Native, JavaScript,  are all skills I have.',
+    skills: 'HTML, CSS, SCSS, WordPress, ReactJs, JavaScript,Figma  are all skills I have.',
 
 }
 

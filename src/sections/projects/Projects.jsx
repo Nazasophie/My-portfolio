@@ -21,7 +21,7 @@ import koinwaImage from '../../assets/images/koinwa.jpg';
 import animatedIconsImage from '../../assets/images/animated-icons.png';
 import easyRecipeImage from '../../assets/images/easyrecipe.png';
 import ejeImage from '../../assets/images/eje.png';
-import kryptolandImage from '../../assets/images/kryptoland.png';
+import SpaceTechImage from '../../assets/images/SpaceTech.png';
 import translatorImage from '../../assets/images/translator.png';
 import syncImage from '../../assets/images/sync.jpg';
 import womenImage from '../../assets/images/womentechster.jpg';
@@ -69,7 +69,7 @@ const Projects = ({ title, subtitle, note }) => {
             </div>
 
             {/* ReactJs and Javascript projects */}
-            <h3 className='category-title'>ReactJs and Javascript projects</h3>
+            <h3 className='category-title'>Portfolio Project: Frontend and UI/UX Design and Writing </h3>
             <div className="project-container">
 
                 <div className="project">
@@ -83,18 +83,7 @@ const Projects = ({ title, subtitle, note }) => {
                         <Button name={'Check it out'} />
                     </a>
                 </div>
-                <div className="project">
-                    <img src={kryptolandImage} className="project-image" alt="kryptoland" />
-                    <p className="project-text">
-                        One stop home for all information about crytocurencies; including
-                        top cryptcurencies, cryptcurency prices, market trends, crypto news,
-                        exchanges and others.
-                    </p>
-                    <a href='https://kryptoland.netlify.app/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-
+               
                 <div className="project">
                     <img src={gyftstoreImage} className="project-image" alt="gyft store website" />
                     <p className="project-text">
@@ -105,6 +94,33 @@ const Projects = ({ title, subtitle, note }) => {
                         <Button name={'Check it out'} />
                     </a>
                 </div>
+
+                
+                <div className="project">
+                    <img src={gyftstoreImage} className="project-image" alt="gyft store website" />
+                    <p className="project-text">
+                    Discover Gyft Store: A seamless online shopping experience for finding unique gifts for every occasion.
+                    </p>
+                    <a href="https://www.figma.com/file/mIcWGIJ2YQC8cScRj15uL3/Gyfts.ng-(Copy)?type=design&mode=design&t=so5AXlSdmJSf5NlM-1
+                     " target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+
+
+                <div className="project">
+                    <img src={SpaceTechImage} className="project-image" alt="SpaceTech" />
+                    <p className="project-text">
+                        One stop home for all information about crytocurencies; including
+                        top cryptcurencies, cryptcurency prices, market trends, crypto news,
+                        exchanges and others.
+                    </p>
+                    <a href='https://www.figma.com/file/HCpR0rQFdh2LpsI4EM1HfJ/SpaceTech(BLOG)?type=design&node-id=0%3A1&mode=design&t=9lSxoh0EMyBCADy2-1
+                  ' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
+
                 
                 
 
@@ -117,7 +133,7 @@ const Projects = ({ title, subtitle, note }) => {
 
 Projects.defaultProps = {
     title: 'projects',
-    subtitle: 'Check Out Some Of My Works and Professional Certification',
+    subtitle: 'Check Out Some Of My Works and Professional Certification as a Product designer, UX Writer and web developer',
     note: 'A series of projects ranging from web devlopment and design to professional certification',
 }
 
